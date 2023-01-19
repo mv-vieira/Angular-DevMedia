@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'devmedia-angular';
+
+  public exibirConteudo: boolean = false;
+
+  public toggleConteudo(){
+    return this.exibirConteudo = !this.exibirConteudo;
+  }
 }
+
+
